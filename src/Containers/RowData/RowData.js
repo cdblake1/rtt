@@ -17,7 +17,7 @@ class RowData extends Component {
             <div className="rowData-container">
                 {this.isChecked()}
                 <div className="data-toggle-button" onClick={this.toggleChecked.bind(this)}>
-                    toggleChecked
+                    t
                 </div>
             </div>
         );

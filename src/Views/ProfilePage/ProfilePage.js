@@ -9,10 +9,15 @@ class ProfilePage extends Component {
         return (
             <div className="view-bg">
                 <Navbar />
-                <div className="container profile-section">
-                    <div className="row">
+                <div className="container profile-container">
+                    <div className="row profile-section">
                         <ProfileHeader />
-                        <ProfileRow />
+                        <ProfileRow title="First Name" />
+                        <ProfileRow title="Last Name" />
+                    </div>
+                    <div className="row">
+                        <ProfileRow title="First Name" />
+                        <ProfileRow title="First Name" />
                     </div>
                 </div>
             </div>
