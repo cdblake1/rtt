@@ -2,7 +2,7 @@
     padding: 1em 1em 1em 1em;
     border-bottom: .5px solid #eaeaea;
     font-size: 2.0em;
-    text-align: Left;
+    justify-content: center;
     display: flex;
     font-family: Aileron;
     height: 40%;

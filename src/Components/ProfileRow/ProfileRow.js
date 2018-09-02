@@ -6,7 +6,7 @@ import RowData from '../../Containers/RowData/RowData';
 class ProfileRow extends Component {
     render() {
         return (
-            <div className="profile-row col-md-12 flex-row justify-content-start">
+            <div className="profile-row col-md-12 flex-row">
                 <ProfileLabel title={this.props.title} />
                 <RowData />
             </div>
